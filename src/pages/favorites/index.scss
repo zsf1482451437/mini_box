@@ -1,0 +1,25 @@
+.favorites-page {
+  padding: 20px;
+
+  .header {
+    padding: 20px 0;
+    text-align: center;
+
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+      color: #333;
+    }
+  }
+
+  .tags-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    .tag-item {
+      margin: 8px;
+    }
+  }
+}
