@@ -2,13 +2,41 @@
   padding: 20px;
 
   .header {
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
 
     .title {
-      font-size: 32px;
+      font-size: 36px;
       font-weight: bold;
-      color: #333;
+    }
+  }
+
+  :global {
+    .nut-cell {
+      padding: 24px 20px;
+      
+      .nut-cell__title {
+        font-size: 32px;
+        font-weight: 500;
+      }
+      
+      .nut-cell__description {
+        font-size: 28px;
+        color: #666;
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+.music-cell {
+  .nut-cell-left {
+    font-size: 28px;
+    color: #666;
+    .nut-cell-description {
+      margin-top: 16px;
+      font-size: 24px;
+      color: #999;
     }
   }
 }

@@ -11,5 +11,5 @@ export default defineAppConfig({
     navigationBarTitleText: '叮当的百宝箱',
     navigationBarTextStyle: 'black'
   },
-  usingComponents: {}
+  usingComponents: {},
 })

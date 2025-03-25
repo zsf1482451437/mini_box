@@ -1,0 +1,111 @@
+.music-player {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  .player-header {
+    text-align: center;
+    margin-bottom: 30px;
+
+    .title {
+      display: block;
+      font-size: 32px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .artist {
+      font-size: 24px;
+      color: #666;
+    }
+  }
+
+  .player-controls {
+    margin-bottom: 30px;
+
+    .progress-bar {
+      height: 4px;
+      background: #eee;
+      border-radius: 2px;
+      margin-bottom: 10px;
+      position: relative;
+
+      .progress {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: #ff4d4f;
+        border-radius: 2px;
+      }
+    }
+
+    .time-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 24px;
+      color: #999;
+      margin-bottom: 20px;
+    }
+
+    .control-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      padding: 20px 0;
+
+      .prev-button,
+      .next-button,
+      .play-button {
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .prev-button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23333' d='M6 6h2v12H6zm3.5 6l8.5 6V6z'/%3E%3C/svg%3E");
+      }
+
+      .play-button {
+        width: 80px;
+        height: 80px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23333' d='M8 5v14l11-7z'/%3E%3C/svg%3E");
+        
+        &.playing {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23333' d='M6 19h4V5H6v14zm8-14v14h4V5h-4z'/%3E%3C/svg%3E");
+        }
+      }
+
+      .next-button {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23333' d='M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z'/%3E%3C/svg%3E");
+      }
+    }
+  }
+
+  .lyrics-container {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    max-height: 300px;
+    overflow-y: auto;
+
+    .lyrics {
+      font-size: 26px;
+      color: #666;
+      line-height: 1.8;
+      white-space: pre-wrap;
+    }
+  }
+
+  .error-message {
+    color: #ff4d4f;
+    text-align: center;
+    margin-top: 20px;
+  }
+} 

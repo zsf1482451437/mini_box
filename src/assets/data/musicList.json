@@ -1,0 +1,20 @@
+{
+  "musicList": [
+    {
+      "id": "1",
+      "title": "Walk",
+      "artist": "Artist One",
+      "duration": "03:45",
+      "lyrics": "Verse 1:\n走在熙熙攘攘的街道\n感受着城市的喧嚣\n\nChorus:\n一步一步向前走\n追寻着心中的梦\n\nVerse 2:\n不管前方有多远\n我都会勇敢前行",
+      "url": "https://music.163.com/song/media/outer/url?id=1804320463.mp3"
+    },
+    {
+      "id": "2",
+      "title": "Song Two",
+      "artist": "Artist Two",
+      "duration": "04:12",
+      "lyrics": "Verse 1:\nThis is the first verse\nSinging about life and love\n\nChorus:\nThis is the chorus\nRepeat after me\n\nVerse 2:\nThis is the second verse\nTelling stories through music",
+      "url": "https://ting8.yymp3.com/new18/jiangyuchen2/2.mp3"
+    }
+  ]
+} 
